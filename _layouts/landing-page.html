@@ -1,19 +1,44 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+  {% include /head.html %}
 
-  <body class="index">
+	<body id="top">
 
-    {% include header.html %}
-    {% include banner.html %}
+        {% include /header.html %}
 
-    <div class="page-content">
-        {{ content }}
+        <!-- Banner -->
+        <section id="banner">
+            <!-- <div class="inner"> -->
+                <!-- <br><br> -->
+                <!-- <h2>This is Ion</h2> -->
+                <!-- <p>A free responsive template by <a href="http://templated.co">TEMPLATED</a></p> -->
+                <!-- <ul class="actions"> -->
+                    <!-- <li><a href="#content" class="button big special">Sign Up</a></li> -->
+                    <!-- <li><a href="#elements" class="button big alt">Learn More</a></li> -->
+                <!-- </ul> -->
+                <!-- <br><br><br> -->
+                <!-- <br> -->
+            <!-- </div> -->
+
+
+<div class="inner">
+
+        <header>
+            <h2>Enactus UFAL</h2>
+        </header>
+        <p>Bla Bla Bla
+        <br />Bla <strong>Bla </strong>
+        <br />
+        Bla
+        <br /> 
+        <!-- by <a href="http://html5up.net">HTML5 UP</a>.</p> -->
     </div>
 
-    {% include footer.html %}
+        </section>
+        {{ content }}
+        {% include /footer.html %}
 
-  </body>
+    </body>
 
 </html>
