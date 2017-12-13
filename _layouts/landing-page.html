@@ -1,52 +1,38 @@
 <!DOCTYPE html>
+
 <html>
 
   {% include /head.html %}
 
 	<body id="top">
+       
         {% include /header.html %}
 
         <!-- Banner -->
         <section id="banner">
-            <!-- <div class="inner"> -->
-                <!-- <br><br> -->
-                <!-- <h2>This is Ion</h2> -->
-                <!-- <p>A free responsive template by <a href="http://templated.co">TEMPLATED</a></p> -->
-                <!-- <ul class="actions"> -->
-                    <!-- <li><a href="#content" class="button big special">Sign Up</a></li> -->
-                    <!-- <li><a href="#elements" class="button big alt">Learn More</a></li> -->
-                <!-- </ul> -->
-                <!-- <br><br><br> -->
-                <!-- <br> -->
-            <!-- </div> -->
-
-
-<div class="inner">
-
-        <header>
-            <h2>Enactus UFAL</h2>
-        </header>
-        <p>Bla Bla Bla
-        <br />Bla <strong>Bla </strong>
-        <br />
-        Bla
-        <br /> 
-        <!-- by <a href="http://html5up.net">HTML5 UP</a>.</p> -->
-    </div>
-
+            <div class="inner">
+                <br><br>
+                <h2>Enactus UFAL</h2>
+                <p>As palavras que movem o time Enactus UFAL são <b>Acreditar e Transformar.</b> <br> E acreditar na transformação é o que faz de nós um time: <b>o time Enactus UFAL!</b></p>
+                <br>
+            </div>  
         </section>
        
         {{ content }}
-                <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10&appId=1163098067055391';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+
+        <div id="fb-root"></div>
+        
+        <script>
+            (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                    js = d.createElement(s); js.id = id;
+                    js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10&appId=1163098067055391';
+                    fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));
+        </script>
+        
         {% include /footer.html %}
 
     </body>
-
 </html>
