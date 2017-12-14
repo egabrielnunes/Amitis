@@ -2,6 +2,12 @@
 @import url(font-awesome.min.css);
 @import url("http://fonts.googleapis.com/css?family=Roboto:500,300");
 
+
+
+#missao {
+	padding-bottom: 65.5px;
+}
+
 /* PARTNERS */
 
 #cta {
