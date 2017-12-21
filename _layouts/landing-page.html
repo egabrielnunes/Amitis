@@ -20,17 +20,49 @@
        
         {{ content }}
 
+        <!-- Facebook Widget on footer -->
         <div id="fb-root"></div>
-        
         <script>
             (function(d, s, id) {
                 var js, fjs = d.getElementsByTagName(s)[0];
                 if (d.getElementById(id)) return;
-                    js = d.createElement(s); js.id = id;
-                    js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10&appId=1163098067055391';
-                    fjs.parentNode.insertBefore(js, fjs);
-                }(document, 'script', 'facebook-jssdk'));
+                js = d.createElement(s); js.id = id;
+                js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11';
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
         </script>
+        <!-- ### -->
+
+        <script type="text/javascript">
+            $.fn.jQuerySimpleCounter = function( options ) {
+                var settings = $.extend({
+                    start:  0,
+                    end:    100,
+                    easing: 'swing',
+                    duration: 400,
+                    complete: ''
+                }, options );
+
+                var thisElement = $(this);
+
+                $({count: settings.start}).animate({count: settings.end}, {
+                    duration: settings.duration,
+                    easing: settings.easing,
+                    step: function() {
+                        var mathCount = Math.ceil(this.count);
+                        thisElement.text(mathCount);
+                    },
+                    complete: settings.complete
+                });
+            };
+
+            $('#number1').jQuerySimpleCounter({end: 4,duration: 3000});
+            $('#number2').jQuerySimpleCounter({end: 31,duration: 3000});
+            $('#number3').jQuerySimpleCounter({end: 325,duration: 2000});
+            //$('#number4').jQuerySimpleCounter({end: 246,duration: 2500});
+        </script>
+
+
         
         {% include /footer.html %}
 
