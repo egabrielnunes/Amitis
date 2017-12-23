@@ -1402,6 +1402,25 @@
 				text-decoration: none;
 			}
 
+
+/* Awards */
+.awards {
+	font-size: 20px;
+}
+
+
+.awards h1 {
+	font-size: 2.6em;
+	border-bottom: 1px solid;
+	padding: 1%;
+}
+
+.awards i {
+	padding-right: 5px;
+}
+
+
+
 /* Footer */
 
 	#footer {
