@@ -79,7 +79,7 @@
 
 .projectFactsWrap .item span{
   width: 39px;
-  background: rgba(255, 255, 255, 0.8);
+  background: #629DD1; /*rgba(255, 255, 255, 0.8)*/
   height: 2px;
   display: block;
   margin: 0 auto;
@@ -97,7 +97,7 @@
 }
 
 .projectFactsWrap .item:hover span{
-  background: white;
+  background: #629DD1;
 }
 
 @media (max-width: 786px){
