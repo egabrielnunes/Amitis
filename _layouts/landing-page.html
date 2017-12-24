@@ -53,15 +53,26 @@
                         var mathCount = Math.ceil(this.count);
                         thisElement.text(mathCount);
                     },
-                    complete: settings.complete
-                    
+                    complete: function() {
+                        var mathCount = this.count > settings.maxNumber ? settings.end + '+' : this.count;
+                        thisElement.text(mathCount);
+                    }
                 });
             };
 
-            $('#number1').jQuerySimpleCounter({end: 2,duration: 3000});
-            $('#number2').jQuerySimpleCounter({end: 31,duration: 3000});
-            $('#number3').jQuerySimpleCounter({end: 1865,duration: 2000});
-            //$('#number4').jQuerySimpleCounter({end: 246,duration: 2500});
+            $('#number1').jQuerySimpleCounter({
+              end: 2,
+              duration: 3000
+            });
+            $('#number2').jQuerySimpleCounter({
+              end: 31,
+              duration: 3000
+            });
+            $('#number3').jQuerySimpleCounter({
+              end: 1865,
+              duration: 2000,
+              maxNumber: 100
+            });
         </script>
         <!-- #Contadores -->
 
