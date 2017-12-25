@@ -135,26 +135,50 @@ layout: landing-page
         	<h2>Contato</h2>
         	<p>Entre em contato com o time Enactus UFAL!</p>
 		</header>
-		<div class="content">
+
+		
+		<div id="form">
+			<form action="" id="contactForm" method="post">
+				<span>Nome</span>
+				<input type="text" name="name" class="name" placeholder="Enter your name" tabindex=1 />
+								
+				<span>Email</span>
+				<input type="text" name="email" class="email" placeholder="Enter your email" tabindex=2 />
+								
+				<span id="captcha"></span>
+				<input type="text" name="captcha" class="captcha" maxlength="4" size="4" placeholder="Enter captcha code" tabindex=3 />
+				
+				<span>Message</span>
+				<textarea class="message" placeholder="Enter your message" tabindex=4></textarea>
+				
+				<input type="submit" name="submit" value="Enviar e-mail" class="submit" tabindex=5>
+			</form>
+		</div>
+
+
+
+
+
+		<!-- <div class="content">
 			<form>
 				<div class="row half collapse-at-2">
 					<div class="6u">
-						<input type="text" name="name" placeholder="Nome" />
+						<input type="text" name="name" placeholder="Nome" required="required" />
 					</div>
 					<div class="6u">
-						<input type="text" name="email" placeholder="Email" />
+						<input type="text" name="email" placeholder="Email" required="required" />
 					</div>
 				</div>
 				<br>
 				<div class="row half">
 					<div class="12u">
-						<input type="text" name="subject" placeholder="Assunto" />
+						<input type="text" name="subject" placeholder="Assunto" required="required" />
 					</div>
 				</div>
 				<br>
 				<div class="row half">
 					<div class="12u">
-						<textarea name="message" placeholder="Mensagem" rows="7"></textarea>
+						<textarea name="message" placeholder="Mensagem" rows="7" required="required" ></textarea>
 					</div>
 				</div>
 				<br>
@@ -166,6 +190,6 @@ layout: landing-page
 					</div>
 				</div>
 			</form>
-		</div>
+		</div> -->
 	</div>
 </section>
