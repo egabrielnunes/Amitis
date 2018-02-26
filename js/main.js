@@ -21,3 +21,16 @@ $(document).ready(function() {
 	}, 3000);
 	
 });
+
+function enviar(){
+	console.log("entrou")
+	console.log(document.getElementById('email').value)
+	Email.send(document.getElementById('email').value,
+		   "enactusufal@gmail.com",
+		   document.getElementById('subject').value,
+		   document.getElementById('message').value,
+		     {
+        	token: "376193ce-a168-4e13-9dac-19078e7b04d5",
+        	callback: function done(message) { swal("Enviado!", "Em breve entraremos em contato.", "success"); console.log(message) }   
+    		});
+}

@@ -142,26 +142,26 @@ layout: landing-page
 						<input type="text" name="name" placeholder="Nome" required="required" />
 					</div>
 					<div class="6u">
-						<input type="text" name="email" placeholder="Email" required="required" />
+						<input type="text" id="email" name="email" placeholder="Email" required="required" />
 					</div>
 				</div>
 				<br>
 				<div class="row half">
 					<div class="12u">
-						<input type="text" name="subject" placeholder="Assunto" required="required" />
+						<input type="text" name="subject" id="subject"  placeholder="Assunto" required="required" />
 					</div>
 				</div>
 				<br>
 				<div class="row half">
 					<div class="12u">
-						<textarea name="message" placeholder="Mensagem" rows="7" required="required" ></textarea>
+						<textarea name="message" id="message" placeholder="Mensagem" rows="7" required="required" ></textarea>
 					</div>
 				</div>
 				<br>
 				<div class="row">
 					<div class="12u">
 						<ul class="buttons" style="list-style-type:none">
-							<li><input type="submit" class="special" value="Enviar" /></li>
+							<li><input type="button" class="special" onclick="enviar()" value="Enviar" /></li>
 						</ul>
 					</div>
 				</div>
