@@ -7,51 +7,30 @@ layout: landing-page
 	<div class="container">
 	<h2 align="center">O Time Enactus UFAL</h2>
 	<h4 align="center">Somos um dos mais de 100 times da Enactus Brasil, e acreditamos que universitários têm a força para melhorar o mundo através da Ação Empreendedora.</h4>
-
-	{% for post in site.projetos %}
-	  {% assign loopindex = forloop.index | modulo: 2 %}
-	  {% if loopindex == 1 %}
-	    <div>
-	      <h4 align="center">{{ post.nomeAmitis }}</h4>
-	  {% else %}
-	      <a href="{{ post.url }}">{{ post.title }}</a>
-	    </div>
-	  {% endif %}
-	{% endfor %}
-
-
-
-	{% for item in site.projetos limit:2 offset:2 %}
-	    <h4 align="center">{{ item }}</h4>
-	{% endfor %}
-
-		<div class="row">
-			<div class="4u">
-				<section class="special box">
-					<i class="icon fa-group major"></i>
+	<br>
+	<br>
+	 	<div class="row">
+	 		<div class="4u">
+                <section class="special">
+					<a class="image full"><img src="images/parceiros.png" alt="" /></a>
 					<h3>MISSÃO</h3>
-					<br>
-					<p id="missao">{{site.missao}}</p>
-
-				</section>
-			</div>
-			<div class="4u">
-				<section class="special box">
-					<i class="icon fa-crosshairs major"></i>
+                    <p>{{site.missao}}</p>
+                </section>
+            </div>
+            <div class="4u">
+                <section class="special">
+					<a class="image full"><img src="images/parceiros.png" alt="" /></a>
 					<h3>VISÃO</h3>
-					<br>
-					<p>{{site.visao}}</p>
-				</section>
-			</div>
-			<div class="4u">
-				<section class="special box">
-					<i class="icon fa-star major"></i>
-					<h3>VALORES</h3>
-					<br>
-					<p>{{site.valores}}</p>
-				</section>
-			</div>
-		</div>
+                    <p>{{site.visao}}</p>
+                </section>
+            </div>
+            <div class="4u">
+                <section class="special">
+					<a class="image full"><img src="images/parceiros.png" alt="" /></a>            <h3>VALORES</h3>
+                    <p>{{site.valores}}</p>
+                </section>
+            </div>
+        </div>
 	</div>
 </section>
 
