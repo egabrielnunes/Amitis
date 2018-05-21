@@ -17,5 +17,36 @@ missao: Transformar pessoas em agentes de mudança dentro de sua realidade.
 visao: Impactar Alagoas através de projetos sustentáveis e escaláveis, promovendo crescimento pessoal e profissional dos envolvidos.
 valores: Inovação, Foco em Impacto, Transparência, Colaboratividade, Resiliência, Ética, Empatia e Comprometimento.
 
+# Informações do Amitis
+nomeAmitis: Amitis
+descResumidaAmitis: É um projeto do nosso time que visa à implantação de hortas hidropônicas e sustentáveis no cenário alagoano, como alternativa para um empoderamento social a partir da produção de alimentos por comunidades vulneráveis, que podem consumi-los e vendê-los.
+descCompleta: "O Amitis visa à implantação de hortas baseadas na hidroponia no cenário urbano de Maceió, iniciado no Village Campestre II, visando à produção de alimentos de modo a inserir comunidades vulneráveis em um ciclo produtivo, gerando renda e alimentos de qualidade. Além de gerar vegetais com valor agregado, como pimenta biquinho, tomate-cereja e morangos, para que possam ser refinados em novos produtos, como geleias e molhos. Desse modo, a hidroponia se mostra como uma alternativa viável para a produção em escala de alimentos no cenário urbano, já que sua tecnologia é altamente replicável e se adapta às variações climáticas e a escassez de recursos naturais. Atualmente, o projeto Amitis estuda e aplica três vertentes de projeto:"  
+hortasEscolares: Com o objetivo de promover a segurança alimentar desde a primeira infância, o time iniciou a implementação de hortas em escolas da rede pública de Maceió.
+hortasComunitarias: É a primeira dentre as vertentes do projeto, pois tem o viés maior de não somente promover a segurança alimentar de diversas comunidades do estado que sofrem com índices alarmantes de subnutrição, como também garantir o exercício de um novo ofício, inserindo parcelas dessas comunidades no mercado de trabalho.
+hortasModulos: Para sanar o gargalo da má alimentação e pensando sempre em inovar e promover novas formas de beneficiar maiores parcelas de diferentes comunidades, o time possui a intenção de desenvolver módulos domésticos compactos de baixo custo e fácil manutenção, garantindo um maior alcance e impacto. 
+
+# Informações do CromoSomos
+nomeCromoSomos: CromoSomos
+descResumidaCromoSomos: É um projeto do nosso time que visa à implantação de hortas hidropônicas e sustentáveis no cenário alagoano, como alternativa para um empoderamento social a partir da produção de alimentos por comunidades vulneráveis, que podem consumi-los e vendê-los.
+
+#Time
+
+descTime1: Enactus é uma organização internacional sem fins lucrativos dedicada a inspirar os alunos a melhorar o mundo através do Empreendedorismo Social. O Brasil é um dos 36 países de operação do programa Enactus ao redor do mundo. Além disso, a Enactus consiste em uma plataforma que possibilita a criação de projetos de desenvolvimento comunitário que colocam progresso e empoderamento em foco, possibilitando a real transformação de comunidades. 
+descTime2: "Somos a Enactus UFAL: um dos mais de 100 times da Enactus Brasil, e acreditamos que universitários têm a força para melhorar o mundo através da Ação Empreendedora. Nosso time possui uma estrutura organizacional com áreas de back office enxutas, objetivando a grande estruturação da área core: Projetos. Assim, a partir do diagnóstico de comunidades e identificação de suas potencialidades desenvolvemos projetos inovadores e impactantes, que permitem empoderamento efetivo da sociedade."
+
+descPresidencia1: "A diretoria de Presidência é responsável pela estratégia e representatividade do time, sendo a área composta pelos diretores: Presidente, que executa funções de representatividade pública, institucional e legal; e Vice-Presidente, que estrutura a gestão interna do time, por meio de planejamento estratégico, controle e mensurações."
+descPresidencia2: "Ainda na mesma área, existem dois núcleos atrelados à Presidência e Vice-presidência, respectivamente, são eles: Pesquisa e Inovação, que busca inovações em projetos, estrutura e desenvolve novas tecnologias e é a responsável pelo desenvolvimento do Projeto WeGrowTogether, uma vez que conta com os membros com skills para o desenvolvimento computacional; e Administrativo-Jurídico-Financeiro, responsável por estruturar e manter processos internos, garantir o registro e atualização de informações, estruturar e desenvolver auditorias internas e externas."
+descMKY: A área de Marketing e Relações Públicas é responsável pela estruturação e manutenção do branding do time, expansão da marca e manutenção do bom relacionamento com parceiros.
+descGP: A diretoria de Gestão de Pessoas é responsável pela estruturação e aplicação de critérios de membresia, que mensuram resultados obtidos por membros e crescimento durante o ciclo, bem como a estruturação de processos que garantam a boa convivência em grupo e a execução de atividades com maior qualidade. Além disso, é responsável por estruturar e coordenar processos seletivos, trainees e headhuntings.
+descProjetos: "A área é responsável pela prospecção, diagnóstico, estruturação e desenvolvimento de projetos. Nela existem dois tipos de núcleos: Pesquisa e Desenvolvimento, com liderança e membros responsáveis pela prospecção de novas comunidades e estruturação de um novo projeto; Projetos, que conta com os projetos abertos após a fase de Pesquisa e Desenvolvimento: atualmente possui o Projeto Amitis." 
+
+teste.teste: akr
+
+projetos: {nomeAmitis: Amitis, nomeCromoSomos: CromoSomos}
+
+
+
+
+
 
 
