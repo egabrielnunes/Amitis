@@ -22,12 +22,7 @@
                 <br>
             </div>  
         </section>
-
-
  
-
-
-       
         {{ content }}
 
         <!-- Facebook Widget on footer -->
@@ -101,15 +96,15 @@
             };
 
             $('#number1').jQuerySimpleCounter({
-              end: 2,
+              end: {{site.quantidadeDeProjetos}},
               duration: 3000
             });
             $('#number2').jQuerySimpleCounter({
-              end: 29,
+              end: {{site.quantidadeDeMembros}},
               duration: 3000
             });
             $('#number3').jQuerySimpleCounter({
-              end: 4100,
+              end: {{site.horasTrabalhadas}},
               duration: 2000,
               maxNumber: 100
             });

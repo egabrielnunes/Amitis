@@ -9,26 +9,44 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://locahost:4000" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
-
-# Build settings
 markdown: kramdown
+
+
+#Informações Quantitativas
+
+quantidadeDeProjetos: 2
+quantidadeDeMembros: 29
+horasTrabalhadas: 4100
+
+#Parceiros
+
+parceiro1: "images/parceiro_2.png"
+parceiro2: "images/parceiro_3.png"
+
+# Missão, Visão e Valores
 
 missao: Transformar pessoas em agentes de mudança dentro de sua realidade.
 visao: Impactar Alagoas através de projetos sustentáveis e escaláveis, promovendo crescimento pessoal e profissional dos envolvidos.
 valores: Inovação, Foco em Impacto, Transparência, Colaboratividade, Resiliência, Ética, Empatia e Comprometimento.
 
-# Informações do Amitis
-nomeAmitis: Amitis
-descResumidaAmitis: É um projeto do nosso time que visa à implantação de hortas hidropônicas e sustentáveis no cenário alagoano, como alternativa para um empoderamento social a partir da produção de alimentos por comunidades vulneráveis, que podem consumi-los e vendê-los.
-descCompleta: "O Amitis visa à implantação de hortas baseadas na hidroponia no cenário urbano de Maceió, iniciado no Village Campestre II, visando à produção de alimentos de modo a inserir comunidades vulneráveis em um ciclo produtivo, gerando renda e alimentos de qualidade. Além de gerar vegetais com valor agregado, como pimenta biquinho, tomate-cereja e morangos, para que possam ser refinados em novos produtos, como geleias e molhos. Desse modo, a hidroponia se mostra como uma alternativa viável para a produção em escala de alimentos no cenário urbano, já que sua tecnologia é altamente replicável e se adapta às variações climáticas e a escassez de recursos naturais. Atualmente, o projeto Amitis estuda e aplica três vertentes de projeto:"  
-hortasEscolares: Com o objetivo de promover a segurança alimentar desde a primeira infância, o time iniciou a implementação de hortas em escolas da rede pública de Maceió.
-hortasComunitarias: É a primeira dentre as vertentes do projeto, pois tem o viés maior de não somente promover a segurança alimentar de diversas comunidades do estado que sofrem com índices alarmantes de subnutrição, como também garantir o exercício de um novo ofício, inserindo parcelas dessas comunidades no mercado de trabalho.
-hortasModulos: Para sanar o gargalo da má alimentação e pensando sempre em inovar e promover novas formas de beneficiar maiores parcelas de diferentes comunidades, o time possui a intenção de desenvolver módulos domésticos compactos de baixo custo e fácil manutenção, garantindo um maior alcance e impacto. 
+fotoMissao: ""
+fotoVisao: ""
+fotoValores: "" 
+
+# Informações do Projeto 1
+nomeProjeto1: "Amitis"
+descResumidaProjeto1: "É um projeto do nosso time que visa à implantação de hortas hidropônicas e sustentáveis no cenário alagoano, como alternativa para um empoderamento social a partir da produção de alimentos por comunidades vulneráveis, que podem consumi-los e vendê-los."
+descCompletaProjeto1: "O Amitis visa à implantação de hortas baseadas na hidroponia no cenário urbano de Maceió, iniciado no Village Campestre II, visando à produção de alimentos de modo a inserir comunidades vulneráveis em um ciclo produtivo, gerando renda e alimentos de qualidade. Além de gerar vegetais com valor agregado, como pimenta biquinho, tomate-cereja e morangos, para que possam ser refinados em novos produtos, como geleias e molhos. Desse modo, a hidroponia se mostra como uma alternativa viável para a produção em escala de alimentos no cenário urbano, já que sua tecnologia é altamente replicável e se adapta às variações climáticas e a escassez de recursos naturais. Atualmente, o projeto Amitis estuda e aplica três vertentes de projeto:"  
+hortasEscolares: "Com o objetivo de promover a segurança alimentar desde a primeira infância, o time iniciou a implementação de hortas em escolas da rede pública de Maceió."
+hortasComunitarias: "É a primeira dentre as vertentes do projeto, pois tem o viés maior de não somente promover a segurança alimentar de diversas comunidades do estado que sofrem com índices alarmantes de subnutrição, como também garantir o exercício de um novo ofício, inserindo parcelas dessas comunidades no mercado de trabalho."
+hortasModulos: "Para sanar o gargalo da má alimentação e pensando sempre em inovar e promover novas formas de beneficiar maiores parcelas de diferentes comunidades, o time possui a intenção de desenvolver módulos domésticos compactos de baixo custo e fácil manutenção, garantindo um maior alcance e impacto." 
 
 # Informações do CromoSomos
-nomeCromoSomos: Cromo Somos
-descResumidaCromoSomos: É um projeto do nosso time que visa à implantação de hortas hidropônicas e sustentáveis no cenário alagoano, como alternativa para um empoderamento social a partir da produção de alimentos por comunidades vulneráveis, que podem consumi-los e vendê-los.
+nomeProjeto2: Cromo Somos
+descResumidaProjeto2: É um projeto do nosso time que visa à implantação de hortas hidropônicas e sustentáveis no cenário alagoano, como alternativa para um empoderamento social a partir da produção de alimentos por comunidades vulneráveis, que podem consumi-los e vendê-los.
+descCompletaProjeto2:
 
+  
 #Descrição Inicial do Time
 
 descTimeParte1: Enactus é uma organização internacional sem fins lucrativos dedicada a inspirar os alunos a melhorar o mundo através do Empreendedorismo Social. O Brasil é um dos 36 países de operação do programa Enactus ao redor do mundo. Além disso, a Enactus consiste em uma plataforma que possibilita a criação de projetos de desenvolvimento comunitário que colocam progresso e empoderamento em foco, possibilitando a real transformação de comunidades. 

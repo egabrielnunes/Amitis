@@ -12,21 +12,22 @@ layout: landing-page
 	 	<div class="row">
 	 		<div class="4u">
                 <section class="special">
-					<a class="image full"><img src="images/parceiros.png" alt="" /></a>
+					<a class="image full"><img src="{{site.fotoMissao}}" alt="" /></a>
 					<h3>MISSÃO</h3>
                     <p>{{site.missao}}</p>
                 </section>
             </div>
             <div class="4u">
                 <section class="special">
-					<a class="image full"><img src="images/parceiros.png" alt="" /></a>
+					<a class="image full"><img src="{{site.fotoVisao}}" alt="" /></a>
 					<h3>VISÃO</h3>
                     <p>{{site.visao}}</p>
                 </section>
             </div>
             <div class="4u">
                 <section class="special">
-					<a class="image full"><img src="images/parceiros.png" alt="" /></a>            <h3>VALORES</h3>
+					<a class="image full"><img src="{{site.fotoValores}}" alt="" /></a>
+					<h3>VALORES</h3>
                     <p>{{site.valores}}</p>
                 </section>
             </div>
@@ -41,20 +42,17 @@ layout: landing-page
 	    <div class="fullWidth eight columns">
 	        <div class="projectFactsWrap ">
 	            <div class="item wow fadeInUpBig animated animated" data-number="2" style="visibility: visible;">
-	                <!--<i class="fa fa-briefcase"></i>-->
-	                <p id="number1" class="number">2</p>
+	                <p id="number1" class="number">{{site.quantidadeDeProjetos}}</p>
 	                <span></span>
 	                <p>PROJETOS</p>
 	            </div>
 	            <div class="item wow fadeInUpBig animated animated" data-number="27" style="visibility: visible;">
-	                <!--<i class="fa fa-smile-o"></i>-->
-	                <p id="number2" class="number">27</p>
+	                <p id="number2" class="number">{{site.quantidadeDeMembros}}</p>
 	                <span></span>
 	                <p>MEMBROS</p>
 	            </div>
 	            <div class="item wow fadeInUpBig animated animated" data-number="2300" style="visibility: visible;">
-	                <!--<i class="fa fa-coffee"></i>-->
-	                <p id="number3" class="number">2300</p>
+	                <p id="number3" class="number">{{site.horasTrabalhadas}}</p>
 	                <span></span>
 	                <p>HORAS TRABALHADAS</p>
 	            </div>
@@ -68,7 +66,6 @@ layout: landing-page
 <section id="two" class="wrapper style2">
 	<header class="major">
 		<h2>Nossos Projetos</h2>
-		<!-- <p>Amet nisi nunc lorem accumsan</p> -->
 	</header>
 	<div class="container">
 		<div class="row">
@@ -106,22 +103,13 @@ layout: landing-page
 
 	<div class="row" style="filter: none !important; -webkit-transform: translateZ(0) !important;">
 			<div class="6u">
-				<img class="image full" src="images/parceiro_2.png"/>
+				<img class="image full" src="{{site.parceiro1}}"/>
 			</div>
 			<div class="6u">
-				<img class="image  full" src="images/parceiro_3.png"/>
+				<img class="image  full" src="{{site.parceiro2}}"/>
 			</div>
 	</div>
-	<!-- <header>
-		<h2>Uma frase legal <strong>aqui</strong>?</h2>
-		<p>Sei lá, pode ser algo para ser parceria e tal</p>
-	</header>
-	<footer>
-		<ul class="buttons">
-			<li><a href="#" class="button special">Quero Contribuir</a></li>
-			<li><a href="#" class="button">Veja mais</a></li>
-		</ul>
-	</footer> -->
+
 </section>
 
 <!-- CONTATO -->
