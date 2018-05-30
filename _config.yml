@@ -27,6 +27,7 @@ fotoVisao: ""
 fotoValores: "" 
 
 # Informações do Projeto 1
+fotoProjeto1: 
 nomeProjeto1: "Amitis"
 descProjeto1: "Projeto de Hortas Hidropônicas da Enactus UFAL"
 descResumidaProjeto1: "É um projeto do nosso time que visa à implantação de hortas hidropônicas e sustentáveis no cenário alagoano, como alternativa para um empoderamento social a partir da produção de alimentos por comunidades vulneráveis, que podem consumi-los e vendê-los."
@@ -42,9 +43,10 @@ box3DescProjeto1: "Para sanar o gargalo da má alimentação e pensando sempre e
 
 
 # Informações do Projeto 2
+fotoProjeto2: "https://i.imgur.com/Rd50DxS.jpg"
 nomeProjeto2: "Cromo Somos"
 descProjeto1: ""
-descResumidaProjeto2: "É um projeto do nosso time que visa à implantação de hortas hidropônicas e sustentáveis no cenário alagoano, como alternativa para um empoderamento social a partir da produção de alimentos por comunidades vulneráveis, que podem consumi-los e vendê-los."
+descResumidaProjeto2: ""
 descCompletaProjeto2: ""
 
 box1TituloProjeto2: ""
