@@ -1590,8 +1590,9 @@
 /* Footer */
 
 #footer {
-	background: #f8f8f8;
+	background: white;
 	padding: 4em 0 6em 0;
+	margin: 0;
 }
 
 #footer a {

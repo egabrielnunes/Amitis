@@ -10,8 +10,8 @@ markdown: kramdown
 
 #Informações Quantitativas
 quantidadeDeProjetos: 2
-quantidadeDeMembros: 29
-horasTrabalhadas: 4100
+quantidadeDeMembros: 28
+horasTrabalhadas: 5600
 
 #Parceiros
 parceiro1: "images/parceiro_2.png"
@@ -31,31 +31,49 @@ fotoProjeto1:
 nomeProjeto1: "Amitis"
 descProjeto1: "Projeto de Hortas Hidropônicas da Enactus UFAL"
 descResumidaProjeto1: "É um projeto do nosso time que visa à implantação de hortas hidropônicas e sustentáveis no cenário alagoano, como alternativa para um empoderamento social a partir da produção de alimentos por comunidades vulneráveis, que podem consumi-los e vendê-los."
-descCompletaProjeto1: "O Amitis visa à implantação de hortas baseadas na hidroponia no cenário urbano de Maceió, iniciado no Village Campestre II, visando à produção de alimentos de modo a inserir comunidades vulneráveis em um ciclo produtivo, gerando renda e alimentos de qualidade. Além de gerar vegetais com valor agregado, como pimenta biquinho, tomate-cereja e morangos, para que possam ser refinados em novos produtos, como geleias e molhos. Desse modo, a hidroponia se mostra como uma alternativa viável para a produção em escala de alimentos no cenário urbano, já que sua tecnologia é altamente replicável e se adapta às variações climáticas e a escassez de recursos naturais. Atualmente, o projeto Amitis estuda e aplica três vertentes de projeto:"  
+descCompletaProjeto1: O Amitis visa a alimentação justa e de qualidade. Através da técnica de hidroponia,levamos igualdade alimentar para os mais amplos contextos sociais. Implementando em comunidades socioeconomicamente vulneráveis em um ciclo produtivo e gerando renda. Hoje, o Amitis é um modelo no empreendedorismo social com alto potencial de replicação e fácil manuseio.
 
 box1TituloProjeto1: "Hortas Escolares"
 box2TituloProjeto1: "Hortas Comunitárias"
-box3TItuloProjeto1: "Hortas em Módulos Domésticos"
+box3TituloProjeto1: "Hortas em Módulos Domésticos"
 
-box1DescProjeto1: "Com o objetivo de promover a segurança alimentar desde a primeira infância, o time iniciou a implementação de hortas em escolas da rede pública de Maceió."
-box2DescProjeto1: "É a primeira dentre as vertentes do projeto, pois tem o viés maior de não somente promover a segurança alimentar de diversas comunidades do estado que sofrem com índices alarmantes de subnutrição, como também garantir o exercício de um novo ofício, inserindo parcelas dessas comunidades no mercado de trabalho."
-box3DescProjeto1: "Para sanar o gargalo da má alimentação e pensando sempre em inovar e promover novas formas de beneficiar maiores parcelas de diferentes comunidades, o time possui a intenção de desenvolver módulos domésticos compactos de baixo custo e fácil manutenção, garantindo um maior alcance e impacto." 
-
+box1DescProjeto1: Além da educação ambiental, temos por objetivo promover a segurança alimentar desde a primeira infância. Devido a não necessidade de solo fértil, o Amitis auxilia escolas públicas de Maceió para que sejam protagonista na produção do próprio alimento. 
+box2DescProjeto1: O Amitis vê nas comunidades um grande potencial empreendedor e busca atingi-lo por meio da venda dos produtos das hortas, seja por forma de beneficiamentos como tempeiros e molhos, ou na forma natural do alimento. Gerar renda e promover acessibilidade a alaimentos de qualidade são os principais metas dessa vertente. 
+box3DescProjeto1: Para atender aos públicos mais variados, o Amitis apresenta uma linha de módulos domésticos. esses se adaptam as necessidades de cada lar, possuindo módulos que chegam a custar menos de R$0,90. Nós buscamos na produção natural de alimentos e com reuso da água.
 
 # Informações do Projeto 2
 fotoProjeto2: "https://i.imgur.com/Rd50DxS.jpg"
 nomeProjeto2: "Cromo Somos"
 descProjeto1: ""
-descResumidaProjeto2: ""
-descCompletaProjeto2: ""
+descResumidaProjeto2: "O Projeto Cromo Somos nasceu com o intuito de modificar a realidade de Maceió em relação à inclusão social de pessoas com a síndrome de Down. Devido à falta de orientação, informação e condições de frequentar locais com capacidade multidisciplinar e especializados em estimulação precoce, muitas dessas pessoas desacreditam da capacidade de mudança e aprimoramento de suas habilidades. "
+descCompletaProjeto2: "O Projeto Cromo Somos nasceu com o intuito de modificar a realidade de Maceió em relação à inclusão social de pessoas com a síndrome de Down. Devido à falta de orientação, informação e condições de frequentar locais com capacidade multidisciplinar e especializados em estimulação precoce, muitas dessas pessoas desacreditam da capacidade de mudança e aprimoramento de suas habilidades. 
+  Com isso, esse projeto, em parceria com a FamDown - Família Down Alagoana, busca capacitar os alunos da instituição para a sua respectiva inserção no mercado de trabalho, sendo iniciado na área da culinária com a produção e venda de biscoitos artesanais. 
+  Buscando o desenvolvimento de habilidades, respeitando as diferenças, aptidões e interesses da comunidade, o Projeto Cromo Somos impulsiona a descoberta de um mundo ainda desconhecido por muitos, o empreendedorismo."
 
-box1TituloProjeto2: ""
-box2TituloProjeto2: ""
-box3TItuloProjeto2: ""
+img1Projeto2: https://imgur.com/VnrpJcD.jpg
+img1DescProjeto2:
 
-box1DescProjeto2: ""
-box2DescProjeto2: ""
-box3DescProjeto2: ""
+img2Projeto2: https://imgur.com/DzjgKOs.jpg
+img2DescProjeto2:
+
+img3Projeto2: https://imgur.com/qK6HAl0.jpg
+img3DescProjeto2:
+
+img4Projeto2: https://imgur.com/tynP7II.jpg
+img4DescProjeto2:
+
+img5Projeto2: https://imgur.com/TW9urCp.jpg
+img5DescProjeto2:
+
+img6Projeto2: https://imgur.com/3QN0PzM.jpg
+img6DescProjeto2:
+
+img7Projeto2: https://imgur.com/cVwirVT.jpg
+img7DescProjeto2:
+
+img8Projeto2: https://imgur.com/bFy31ng.jpg
+img8DescProjeto2:
+
 
 #Página Time
 
@@ -338,7 +356,7 @@ isProejtos18: "http://instagram.com/ninabsarmento"
 nomeProjetos19: "Telma Wanderley"
 cargoProjetos19: "Membro do Projeto Amitis" 
 descProjetos19: "24 anos, estudante de Administração. Atua como estagiária na Procuradoria da República, facilitadora do programa Liderança 16 horas da Fundação Estudar e é apaixonada por empreendedorismo social."
-fotoProjetos19: "https://i.imgur.com/l0h8n0A.png"
+fotoProjetos19: "https://imgur.com/jCFT87k.jpg"
 ttProjetos19: ""
 fbProjetos19: "https://www.facebook.com/telmaklarisse"
 lkProjetos19: "https://www.linkedin.com/in/telma-wanderley-b45a788a/"
